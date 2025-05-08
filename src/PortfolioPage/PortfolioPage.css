@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: sans-serif;
+  }  
+
+.mainpage {
+    padding: 20px 30px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        /* padding: 20px 30px; */
+        align-items: baseline;
+        .nav-items {
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            /* width: 400px; */
+            gap: 30px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    .mainPageContent{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        .details {
+            padding-left: 10px;
+            width: 35%;
+            .contactBtn{
+                margin-top: 30px;
+                border-radius: 20px;
+                padding: 8px 10px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        
+        
+    }
+}
