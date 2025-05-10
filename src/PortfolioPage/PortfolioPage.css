@@ -11,11 +11,11 @@
 
 
 #container {
-    .mainpage {
-        background-color: #171d32;
+    background-color: #171d32;
+    padding: 40px 80px;
+    .main-page {
         color: #FFFFFF;
-        padding: 40px 80px;
-        height: 100vh;
+        /* height: 100vh; */
         .header {
             display: flex;
             justify-content: space-between;
@@ -82,6 +82,13 @@
             
             
         }
-    }    
+    } 
+    .about-page {
+        height: 500px;
+        width: 100%;
+        background-color: #020617;
+        border-radius: 20px;
+        margin-top: 100px;
+    }   
 }
 
