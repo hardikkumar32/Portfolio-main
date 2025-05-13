@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./PortfolioPage.css";
 import Mainpage from "./MainPage/Mainpage";
 import AboutPage from "./AboutPage/AboutPage";
+import ExperiencePage from "./ExperiencePage/ExperiencePage";
 
 function PortfolioPage() {
   const aboutRef = useRef(null);
@@ -25,6 +26,9 @@ function PortfolioPage() {
       />
       <div ref={aboutRef}>
         <AboutPage />
+      </div>
+      <div ref={experienceRef}>
+        <ExperiencePage />
       </div>
     </section>
   );
