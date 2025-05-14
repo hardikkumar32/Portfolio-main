@@ -3,6 +3,7 @@ import "./PortfolioPage.css";
 import Mainpage from "./MainPage/Mainpage";
 import AboutPage from "./AboutPage/AboutPage";
 import ExperiencePage from "./ExperiencePage/ExperiencePage";
+import ProjectsPage from "./ProjectsPage/ProjectsPage";
 
 function PortfolioPage() {
   const aboutRef = useRef(null);
@@ -29,6 +30,9 @@ function PortfolioPage() {
       </div>
       <div ref={experienceRef}>
         <ExperiencePage />
+      </div>
+      <div ref={projectsRef}>
+        <ProjectsPage />
       </div>
     </section>
   );
