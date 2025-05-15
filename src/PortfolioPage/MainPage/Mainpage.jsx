@@ -55,10 +55,15 @@ function Mainpage({
             <TextChange />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-            consequuntur vitae labore vero corrupti laboriosam modi in
-            repellendus et temporibus laborum rerum magni soluta perferendis
-            expedita minus, aliquid amet dolore.
+            {/* I'm a Software Engineer with experience in building full-stack web
+            applications using ReactJS, Node.js, and Express. I focus on
+            creating intuitive user interfaces and secure, scalable backend
+            systems. I’ve worked on real-time dashboards, learning platforms,
+            and API integrations, and thrive in agile, team-oriented
+            environments. */}
+            Software Engineer skilled in React, Node.js, and Express—building
+            intuitive UIs and scalable backends for dashboards, learning
+            platforms, and APIs.
           </p>
           <button
             className="contactBtn"
