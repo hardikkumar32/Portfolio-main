@@ -1,4 +1,4 @@
-import "../../PortfolioPage/PortfolioPage.css";
+import "../../PortfolioPage/PortfolioPage.scss";
 import myPic from "../../assets/Portfolio1.jpg";
 
 function AboutPage() {

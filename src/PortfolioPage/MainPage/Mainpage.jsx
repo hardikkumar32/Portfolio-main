@@ -1,4 +1,4 @@
-import "../../PortfolioPage/PortfolioPage.css";
+import "../../PortfolioPage/PortfolioPage.scss";
 import myPic from "../../assets/Portfolio1.jpg";
 
 const navItems = {
@@ -8,6 +8,8 @@ const navItems = {
   contact: "Contact",
 };
 
+import TextChange from "./TextChange";
+
 function Mainpage({
   aboutRef,
   experienceRef,
@@ -16,7 +18,6 @@ function Mainpage({
   scrollToSection,
 }) {
   const handleClick = (currentSelectedPage) => {
-    debugger;
     switch (currentSelectedPage) {
       case navItems.about:
         scrollToSection(aboutRef);
@@ -50,14 +51,21 @@ function Mainpage({
       </header>
       <div className="mainPageContent">
         <div className="details">
-          <h1>Hi, I am Hardik</h1>
+          <h1>
+            <TextChange />
+          </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             consequuntur vitae labore vero corrupti laboriosam modi in
             repellendus et temporibus laborum rerum magni soluta perferendis
             expedita minus, aliquid amet dolore.
           </p>
-          <button className="contactBtn">Contact Me</button>
+          <button
+            className="contactBtn"
+            onClick={() => scrollToSection(contactRef)}
+          >
+            Contact Me
+          </button>
         </div>
         <div className="imgContainer">
           <img src={myPic} alt="" />
