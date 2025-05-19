@@ -36,7 +36,7 @@ function ExperiencePage() {
           <div className="data-container">
             <h2>Security First LTD</h2>
             <h3>Web Developer Intern</h3>
-            <h4>📍 Cambridge, ON | 🗓️ Sep 2024 – Dec 2024</h4>
+            <h4>Cambridge, ON | Sep 2024 – Dec 2024</h4>
             <ul>
               <li>
                 Redesigned the company homepage, leading to a 25% increase in
@@ -56,7 +56,7 @@ function ExperiencePage() {
           <div className="data-container">
             <h2>Recur Club</h2>
             <h3>Software Engineer</h3>
-            <h4>📍 Gurugram, India | 🗓️ Apr 2022 – May 2023</h4>
+            <h4>Gurugram, India | Apr 2022 – May 2023</h4>
             <ul>
               <li>
                 Developed a data dashboard with dynamic visualizations, reducing
@@ -84,7 +84,7 @@ function ExperiencePage() {
           <div className="data-container">
             <h2>Coding Ninjas</h2>
             <h3>Mentor (Internship)</h3>
-            <h4>📍 Delhi, India | 🗓️ Nov 2020 – Apr 2021</h4>
+            <h4>Delhi, India | Nov 2020 – Apr 2021</h4>
             <ul>
               <li>
                 Conducted live sessions with the lectures on data structures and
