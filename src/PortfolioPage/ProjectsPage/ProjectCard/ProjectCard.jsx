@@ -1,23 +1,33 @@
 import "../../../PortfolioPage/PortfolioPage.scss";
-import myPic from "../../../assets/Portfolio1.jpg";
+import yelpCamp from "../../../assets/yelpCampImg.jpg";
+import tictactoe from "../../../assets/tictactoeImg.jpg";
 
-function ProjectCard() {
+function ProjectCard({ projectName, id, description, demoLink, gitHubLink }) {
+  const selectImage = (id) => {
+    switch (id) {
+      case "yelpCamp":
+        return yelpCamp;
+      case "tictactoe":
+        return tictactoe;
+      default:
+        return yelpCamp;
+    }
+  };
   return (
     <section className="project-card">
       <div className="card-img-container">
-        <img src={myPic} alt="" />
+        <img src={selectImage(id)} alt="" />
       </div>
 
-      <h1 className="project-name">Blogging website</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem saepe
-        natus id tempore voluptatibus quaerat quisquam dolorem sequi aspernatur,
-        nisi voluptatum corrupti molestiae enim illo veritatis modi odio
-        commodi!
-      </p>
+      <h1 className="project-name">{projectName}</h1>
+      <p>{description}</p>
       <div className="project-btns">
-        <button className="project-btn">Demo</button>
-        <button className="project-btn">Source Code</button>
+        <button className="project-btn">
+          <a href={demoLink}>Demo</a>
+        </button>
+        <button className="project-btn">
+          <a href={gitHubLink}>Source Code</a>
+        </button>
       </div>
     </section>
   );

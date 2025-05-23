@@ -12,15 +12,21 @@ function ContactPage() {
       <ul className="social-accounts">
         <li>
           <MdOutlineEmail size={20} />
-          <span>hardikkumar32@gmail.com</span>
+          <span>
+            <a href="mailto:hardikkumar32@gmail.com">hardikkumar32@gmail.com</a>
+          </span>
         </li>
         <li>
           <CiLinkedin />
-          <span>linkedin.com/hardikkumar32</span>
+          <span>
+            <a href="https://www.linkedin.com/in/hardikkumar32/">Linkedin</a>
+          </span>
         </li>
         <li>
           <FaGithub />
-          <span>github.com/hardikkumar32</span>
+          <span>
+            <a href="https://github.com/hardikkumar32">Github</a>
+          </span>
         </li>
       </ul>
     </section>

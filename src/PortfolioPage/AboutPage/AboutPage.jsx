@@ -1,5 +1,6 @@
 import "../../PortfolioPage/PortfolioPage.scss";
-import myPic from "../../assets/Portfolio1.jpg";
+import myPic from "../../assets/Portfolioimg2.jpg";
+import { ArrowRight } from "lucide-react";
 
 function AboutPage() {
   return (
@@ -13,29 +14,47 @@ function AboutPage() {
             </div>
             <div className="data">
               <ul>
-                <li>
-                  &rarr; Passionate developer focused on transforming ideas into
-                  real-world, interactive web applications
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Passionate developer focused on transforming ideas into
+                    real-world, interactive web applications
+                  </span>
                 </li>
-                <li>
-                  &rarr; Experienced in building data-driven dashboards and
-                  scalable full-stack solutions
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Experienced in building data-driven dashboards and scalable
+                    full-stack solutions
+                  </span>
                 </li>
-                <li>
-                  &rarr; Skilled at developing responsive, user-friendly
-                  interfaces with clean design principles
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Skilled at developing responsive, user-friendly interfaces
+                    with clean design principles
+                  </span>
                 </li>
-                <li>
-                  &rarr; Always learning and exploring new tools, libraries, and
-                  technologies to stay ahead
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Always learning and exploring new tools, libraries, and
+                    technologies to stay ahead
+                  </span>
                 </li>
-                <li>
-                  &rarr; Enjoy solving real-world problems through efficient,
-                  maintainable code
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Enjoy solving real-world problems through efficient,
+                    maintainable code
+                  </span>
                 </li>
-                <li>
-                  &rarr; Thrive in collaborative, agile environments where
-                  innovation meets execution
+                <li className="list-item">
+                  <span className="arrow">→</span>
+                  <span classname="text">
+                    Thrive in collaborative, agile environments where innovation
+                    meets execution
+                  </span>
                 </li>
               </ul>
             </div>
