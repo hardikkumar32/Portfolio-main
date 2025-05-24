@@ -1,6 +1,6 @@
 import "../../../PortfolioPage/PortfolioPage.scss";
 import yelpCamp from "../../../assets/yelpCampImg.jpg";
-import tictactoe from "../../../assets/TictactoeImg.jpg";
+import tictactoe from "../../../assets/Tictactoeimg.jpg";
 import weatherImg from "../../../assets/WeatherAppImg.png";
 
 function ProjectCard({ projectName, id, description, demoLink, gitHubLink }) {
