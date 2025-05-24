@@ -1,6 +1,7 @@
 import "../../../PortfolioPage/PortfolioPage.scss";
 import yelpCamp from "../../../assets/yelpCampImg.jpg";
 import tictactoe from "../../../assets/tictactoeImg.jpg";
+import weatherImg from "../../../assets/WeatherAppImg.png";
 
 function ProjectCard({ projectName, id, description, demoLink, gitHubLink }) {
   const selectImage = (id) => {
@@ -9,6 +10,8 @@ function ProjectCard({ projectName, id, description, demoLink, gitHubLink }) {
         return yelpCamp;
       case "tictactoe":
         return tictactoe;
+      case "weatherApp":
+        return weatherImg;
       default:
         return yelpCamp;
     }

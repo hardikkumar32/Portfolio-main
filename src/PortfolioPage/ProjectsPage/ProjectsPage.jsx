@@ -12,9 +12,17 @@ const projects = {
     name: "Tic Tac Toe",
     id: "tictactoe",
     description:
-      "This is a simple tic tac toe game created using React.js. It is a single player game where you can play against the computer.",
+      "A simple 2-player Tic Tac Toe game built with HTML, CSS, and JavaScript. It features a responsive grid, real-time win/draw detection, and a reset option for replay.",
     demoLink: "https://hardikkumar32.github.io/Advance-Tic-Tac-Toe-Game/",
     gitHubLink: "https://github.com/hardikkumar32/Advance-Tic-Tac-Toe-Game",
+  },
+  weatherApp: {
+    name: "Weather App",
+    id: "weatherApp",
+    description:
+      "A simple and responsive weather application developed using HTML, CSS, and JavaScript, which fetches real-time weather data through OpenWeatherMap API.",
+    demoLink: "https://hardikkumar32.github.io/weatherapp/",
+    gitHubLink: "https://github.com/hardikkumar32/weatherapp",
   },
 };
 function ProjectsPage() {
@@ -37,14 +45,14 @@ function ProjectsPage() {
           demoLink={projects.tictactoe.demoLink}
           gitHubLink={projects.tictactoe.gitHubLink}
         />
+
         <ProjectCard
-          projectName={projects.tictactoe.name}
-          id={projects.tictactoe.id}
-          description={projects.tictactoe.description}
-          demoLink={projects.tictactoe.demoLink}
-          gitHubLink={projects.tictactoe.gitHubLink}
+          projectName={projects.weatherApp.name}
+          id={projects.weatherApp.id}
+          description={projects.weatherApp.description}
+          demoLink={projects.weatherApp.demoLink}
+          gitHubLink={projects.weatherApp.gitHubLink}
         />
-        {/* <ProjectCard /> */}
       </div>
     </div>
   );

@@ -28,6 +28,9 @@
                 display: flex;
                 justify-content: space-between;
                 list-style: none;
+                li {
+                    cursor: pointer;
+                }
                 /* width: 400px; */
                 gap: 30px;
                 a {
